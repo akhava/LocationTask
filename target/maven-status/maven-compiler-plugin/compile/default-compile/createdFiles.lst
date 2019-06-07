@@ -1,0 +1,4 @@
+com\extentia\location\ServerLocation.class
+com\extentia\location\ServerLocationBoImpl.class
+com\extentia\controller\MapController.class
+com\extentia\location\ServerLocationBo.class
