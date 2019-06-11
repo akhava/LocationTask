@@ -7,11 +7,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+import com.extentia.dto.LocationDTO;
 import com.extentia.service.LocationService;
 
 @Controller
-public class MapController {
-	
+public class LocationController {
+
 	@Autowired
 	LocationService locationService;
 
@@ -22,16 +23,12 @@ public class MapController {
 		return model;
 
 	}
-	
-	@RequestMapping(value = "/place", method = RequestMethod.POST)
-	public @ResponseBody String getLocation(@RequestParam String lat, 
-			@RequestParam String lon, @RequestParam String type) {
-		System.out.println("request lat = "+lat+" lon = "+lon+" type = "+type);
-		String result = locationService.findPlaceTypeUsingLatLong(lat, lon, type);
-		System.out.println(result);
-	    
-	    return result;
-		
+
+	@RequestMapping(value = "Address", method = RequestMethod.POST)
+	public @ResponseBody LocationDTO getLocationAddress(@RequestParam String location) {
+		System.out.println("search location = " + location);
+		LocationDTO locationDTO = locationService.findLocationAddress(location);
+		return locationDTO;
 	}
-	
+
 }
