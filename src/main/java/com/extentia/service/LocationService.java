@@ -1,7 +1,7 @@
 package com.extentia.service;
 
-public interface LocationService {
-	
-	String findPlaceTypeUsingLatLong(String lat, String lon, String type);
+import com.extentia.dto.LocationDTO;
 
+public interface LocationService {
+	LocationDTO findLocationAddress(String location);
 }
