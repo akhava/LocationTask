@@ -1,4 +1,8 @@
-C:\workspace\Location\src\main\java\com\extentia\location\ServerLocationBo.java
-C:\workspace\Location\src\main\java\com\extentia\location\ServerLocationBoImpl.java
-C:\workspace\Location\src\main\java\com\extentia\controller\MapController.java
-C:\workspace\Location\src\main\java\com\extentia\location\ServerLocation.java
+C:\workspace\Location\src\main\java\com\extentia\dto\LocationDTO.java
+C:\workspace\Location\src\main\java\com\extentia\serviceImpl\LocationTypeServiceImpl.java
+C:\workspace\Location\src\main\java\com\extentia\service\LocationService.java
+C:\workspace\Location\src\main\java\com\extentia\service\LocationTypeService.java
+C:\workspace\Location\src\main\java\com\extentia\serviceImpl\LocationServiceImpl.java
+C:\workspace\Location\src\main\java\com\extentia\utils\Contants.java
+C:\workspace\Location\src\main\java\com\extentia\controller\LocationTypeController.java
+C:\workspace\Location\src\main\java\com\extentia\controller\LocationController.java

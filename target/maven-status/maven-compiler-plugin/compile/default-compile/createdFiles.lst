@@ -1,4 +1,7 @@
-com\extentia\location\ServerLocation.class
-com\extentia\location\ServerLocationBoImpl.class
-com\extentia\controller\MapController.class
-com\extentia\location\ServerLocationBo.class
+com\extentia\utils\Contants.class
+com\extentia\serviceImpl\LocationTypeServiceImpl.class
+com\extentia\serviceImpl\LocationServiceImpl.class
+com\extentia\controller\LocationController.class
+com\extentia\service\LocationService.class
+com\extentia\service\LocationTypeService.class
+com\extentia\dto\LocationDTO.class
